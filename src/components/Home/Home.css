@@ -1,0 +1,32 @@
+.home {
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: cadetblue 2px solid;
+}
+
+.home-profile {
+  width: 50%;
+  height: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: firebrick 2px solid;
+}
+
+.home-profile img {
+  height: 100%;
+  width: 100%;
+}
+
+.home-content {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  justify-items: center;
+  border: sandybrown 2px solid;
+}
+/*# sourceMappingURL=Home.css.map */

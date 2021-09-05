@@ -1,0 +1,45 @@
+
+.navbar{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    border: blueviolet 2px solid;
+}
+
+.navbar-logo {
+    height: 100%;
+    width: auto;
+    float: left;
+    margin-left: 10%;
+    border: yellow 2px solid;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 10%;
+    border: blue 2px solid;
+}
+
+.nav-item {
+    margin: 0 30px;
+    font-size: 20px;
+    border: red 2px solid;
+    cursor: pointer;
+}
+
+
+.nav-item:hover {
+    color: green;
+}
+
+    
